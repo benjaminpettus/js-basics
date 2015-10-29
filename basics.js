@@ -7,7 +7,7 @@ var myName = "Dev League";
  */
 var person = {
 	name: myName, 
-	age:"33"
+	age:33
 };
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`r
@@ -33,8 +33,9 @@ var dataTypes = ["something", 23, true, {day: 'friday'}, undefined, null];
  */
  var dog = {
  	name: "Spot",
- 	bark: function woof () {
- 		return 'woof';
- 	}
- 	console.log(dog.bark);
+ 	bark: function() {
+ 		console.log("woof");
+ 	}		
+ 	
  };
+ 
